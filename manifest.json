@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Daily Quote",
+  "version": "1.0",
+  "description": "Get an inspirational quote every day with one click!",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.quotable.io/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.svg",
+      "48": "icons/icon-48.svg",
+      "128": "icons/icon-128.svg"
+    },
+    "default_title": "Daily Quote"
+  },
+  "icons": {
+    "16": "icons/icon-16.svg",
+    "48": "icons/icon-48.svg",
+    "128": "icons/icon-128.svg"
+  }
+}
